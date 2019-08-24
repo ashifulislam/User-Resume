@@ -1,0 +1,92 @@
+body{
+    font-family: Tahoma,geneva,sans-serif;
+    color:#fff;
+    background: url(nature1.jpg);
+    background-size:cover;
+}
+.SignUp{
+background-color: rgba(44,62,80,0.7);
+
+       padding:40px;
+       width:250px;
+       margin:auto;
+       margin-top:80px;
+       height:530px;
+       margin-left:180px;
+       margin: 0 auto;
+       margin-top:90px;
+      
+      
+       
+       
+
+}
+h2{
+    color:white;
+}
+a{
+    color:yellow;
+    text-decoration: blink;
+}
+
+form{
+    width:240px;
+    text-align: center;
+   
+}
+input[type=text],[type=email],[type=password],[type=number]{
+     width:240px;
+    text-align: center;
+    background:transparent;
+    border:none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play', sans-serif;
+    font-size:16px;
+    font-weight: 200px;
+    padding:10px 0;
+    transition:border 0.5s;
+    outline:none;
+    color:#fff;
+}
+#religion{
+	font-family: "roboto",sans-serif;
+	background:#f2f2f2;
+	width: 100%;
+	border:0;
+	margin:0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size:14px;
+}
+h2{
+    color:#000;
+}
+::placeholder{
+    color:aliceblue;
+    opacity: 0.8;
+}
+input[type=submit]{
+    border:none;
+    width:190px;
+    background:white;
+    color:#000;
+    font-size:16px;
+    line-height:25px;
+    padding:5px 0;
+    border-radius:15px;
+    cursor:pointer;
+    margin-top: 15px;
+}
+input[type=submit]:hover{
+    color:#fff;
+    background-color:black;
+}
+.gender{
+	position: left;
+	font-family: "roboto",sans-serif;
+    text-align: left;
+}
+
+.gender input[type=radio]{
+    width: 10px; 
+}

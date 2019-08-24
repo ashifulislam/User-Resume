@@ -1,0 +1,81 @@
+body{
+ font-family: Tahoma,geneva,sans-serif;
+    color:#fff;
+   
+    background: url(coffee.jpeg);
+     background-size:cover;
+}
+.subNav{
+    padding-top:5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    background-color: black;
+    width:820px;
+    margin-left: 300px;
+    margin-top: 80px;
+}  
+.subNav ul{
+    display: flex;
+    margin-top: -50px;
+}
+.subNav ul li{
+    list-style: none;
+        transform: translateX(100rem);
+        animation: slideIn .5s forwards;
+
+
+}
+
+.subNav ul li a{
+    padding: 1rem 0;
+    margin: 0 3rem;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: "Roboto",sans-serif;
+
+}
+.subNav ul li a:last-child{
+    margin-right: 0;
+}
+.subNav ul li a::before,
+.subNav ul li a::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:2px;
+    background-color: crimson;
+    left:0;
+    transform: scaleX(0);
+    transition: all .5s;
+}
+.subNav ul li a::before{
+    top:0;
+    transform-origin: left;
+    
+}
+.subNav ul li a::after{
+    bottom:0;
+    transform-origin: right;
+}
+.subNav ul li a:hover::before,
+.subNav ul li a:hover::after{
+    transform: scaleX(1);
+}
+@keyframes slideIn{
+    from{
+        
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+.h{
+    padding-top:50px;
+    text-align: center;
+}
+
+

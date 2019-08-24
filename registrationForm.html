@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Registration Form
+        </title>
+        <link rel="stylesheet" href="registrationForm.css">
+        <script type="text/javascript" src="registrationForm.js"> </script>
+    </head>
+    <body>
+        <div class="SignUp">
+            <form name="regForm" method="post" action="registrationForm.php">
+                <h2 style="color:#fff;"> SignUp</h2>
+                <input type="text" placeholder="enter your fullname" name="fullname" onchange="checkNameLength();" required>
+                <br><br>
+                <input type="email" placeholder="enter your email" name="email" required>
+                <br><br>
+                <input type="password" placeholder="enter your password" name="password" required>
+                <br><br>
+                <input type="password" placeholder="enter your retTypePassword" name="reType" onchange="checkMatchPassword();" required>
+                <br><br>
+                <input type="number" placeholder="age" name="age" onchange="checkAge();" required>
+                <br>
+                <select name="religion" id="religion">
+                    <option name="religion" value="religion">Religion</option>
+                    <option name="religion" value="muslim">Muslim</option>
+                    <option name="religion" value="Hindu">Hindu</option>
+
+
+                </select>
+                <br>
+                <div class="gender">
+                Gender:
+               <input type="radio" name="gender" value="male"> Male
+               <input type="radio" name="gender" value="female"> Female<br><br>
+                </div>
+                <input type="checkbox" name="myCheck" id="myCheck">I agree with the terms and conditions<br>
+                
+                <input type="submit" name="signup" value="Sign Up"><br><br><br>
+                Are You Registered?<a href="logInForm.html"> &nbsp; LogIn</a> 
+
+                
+            </form>
+        </div>
+    </body>
+</html>
