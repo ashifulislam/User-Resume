@@ -1,5 +1,5 @@
 # Project Title
-Cricket Player Information System
+User Profile System
 ## Getting Started
 This project is user Profile. 
 It is a part of any website where user profile is needed. 
